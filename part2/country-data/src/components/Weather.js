@@ -9,7 +9,7 @@ const Weather = ({ capital }) => {
   const [httpError, setHttpError] = useState('')
   
   
-  const url = `https://api.weatherstack.com/current?access_key=${process.env.REACT_APP_API_KEY}&query=${capital}`;
+  const url = `http://api.weatherstack.com/current?access_key=${process.env.REACT_APP_API_KEY}&query=${capital}`;
   const weatherHook = () => {
     axios
       .get(url)
