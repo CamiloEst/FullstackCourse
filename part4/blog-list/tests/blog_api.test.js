@@ -112,7 +112,7 @@ describe('When a blog is added', () => {
 
 })
 
-/*
+
 describe('Deletion of a blog', () => {
 
   test('succeeds with status code 204 if id is valid', async () => {
@@ -177,7 +177,7 @@ describe('Modify a blog', () => {
     await api.put(`/api/blogs/${malformattedId}`).expect(400)
   }, 10000)
 })
-*/
+
 afterAll(async () => {
   await mongoose.connection.close()
 }, 100000)
