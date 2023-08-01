@@ -1,4 +1,4 @@
-const listHelper = require('../utils/list_helper.util')
+const listHelper = require('../../utils/list_helper.util')
 
 const emptyList = []
 
