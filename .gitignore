@@ -11,3 +11,6 @@
 /part5/blog-list-api/.env
 /part5/blog-list-front/node_modules
 /part5/blog-list-front/cypress/videos
+/part6/query-anecdotes/node_modules
+/part6/redux-anecdotes/node_modules
+/part6/unicafe-redux/node_modules
